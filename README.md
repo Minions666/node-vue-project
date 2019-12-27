@@ -29,5 +29,6 @@ npm test
 
 ## 注意
 * 此项目采用javascript作为开发语言，express作为后端框架，vuejs作为前端框架，element-ui作为ui框架
+* server 目录为nodejs服务端项目源码
 
 ## 此项目是新手 ===> 全渣 的首个试水项目，祝愿成功！！
