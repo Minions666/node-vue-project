@@ -1,0 +1,27 @@
+{
+  "name": "express-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "pm2start": "pm2 start ./bin/www",
+    "start": "supervisor ./bin/www",
+    "pm2": "SET DEBUG=express-project:* & npm pm2start",
+    "dev": "SET DEBUG=express-project:* & npm start"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^10.0.0",
+    "standard": "^14.3.1"
+  }
+}
