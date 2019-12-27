@@ -27,4 +27,7 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 注意
+* 此项目采用javascript作为开发语言，express作为后端框架，vuejs作为前端框架，element-ui作为ui框架
+
+## 此项目是新手 ===> 全渣 的首个试水项目，祝愿成功！！
