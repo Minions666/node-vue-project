@@ -9,7 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css' // 引入ui
 import './style/main.less'
 
 Vue.use(VueBus)
-Vue.use(ElementUI, {size: 'small'}) // 引入ui
+Vue.use(ElementUI, { size: 'small' }) // 引入ui
 
 Vue.config.productionTip = false
 
